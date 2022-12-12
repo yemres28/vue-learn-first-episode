@@ -74,6 +74,12 @@ const routes = [
         /* webpackChunkName: "css" */ "../views/dinamik-stillendirme-css/dinamik-stillendirme-css.vue"
       ),
   },
+  {
+    path: "/v-if",
+    name: "v-if",
+    component: () =>
+      import(/* webpackChunkName: "v-if" */ "../views/v-if/v-if.vue"),
+  },
 ];
 
 const router = new VueRouter({
