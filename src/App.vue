@@ -20,6 +20,7 @@
       <h4>Bölüm 3</h4>
       <h5>Koşul Kullanımı ve Listeleri Render Etmek</h5>
       <router-link to="/v-if">Lesson-1</router-link> |
+      <router-link to="/v-for">Lesson-2</router-link> |
       <br />
       <hr />
     </nav>

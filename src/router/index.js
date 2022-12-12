@@ -80,6 +80,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "v-if" */ "../views/v-if/v-if.vue"),
   },
+  {
+    path: "/v-for",
+    name: "v-for",
+    component: () =>
+      import(/* webpackChunkName: "v-for" */ "../views/v-for/v-for.vue"),
+  },
 ];
 
 const router = new VueRouter({

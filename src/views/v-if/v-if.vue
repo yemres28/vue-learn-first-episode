@@ -22,6 +22,19 @@
     <b v-if="number < 10">Sayı 10'dan küçüktür</b>
     <b v-else-if="number == 10">Sayı 10'a eşittir</b>
     <b v-else>Sayı 10'dan büyüktür</b>
+    <br />
+    <hr />
+    <br />
+    <!-- v-show kullanımı -->
+    <!-- v-show ile v-if farkı v-if filtrelediğimiz değeri direkt olarak domdan kaldırırken v-show
+     domda tutarak sadece visibilitysini değiştiriyor -->
+    <button @click="showParagh = !showParagh">Göster/Gizle</button>
+    <p v-show="showParagh">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex eaque qui
+      illo cupiditate vel sint voluptate asperiores maiores, nihil corporis
+      blanditiis quod nemo laboriosam ullam distinctio obcaecati voluptatibus
+      rerum recusandae?
+    </p>
   </div>
 </template>
 
@@ -31,6 +44,7 @@ export default {
     return {
       show: true,
       number: 0,
+      showParagh: false,
     };
   },
 };
