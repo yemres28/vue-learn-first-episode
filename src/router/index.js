@@ -13,12 +13,33 @@ const routes = [
   {
     path: "/about",
     name: "about",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () =>
       import(
         /* webpackChunkName: "about" */ "../views/template-yapisi/template-yapisi.vue"
+      ),
+  },
+  {
+    path: "/attirbute",
+    name: "attirbute",
+    component: () =>
+      import(
+        /* webpackChunkName: "attirbute" */ "../views/attirbute-bind/attirbute-bind.vue"
+      ),
+  },
+  {
+    path: "/html",
+    name: "html",
+    component: () =>
+      import(
+        /* webpackChunkName: "html" */ "../views/html-kodunu-bas/html-kodunu-bas.vue"
+      ),
+  },
+  {
+    path: "/event",
+    name: "event",
+    component: () =>
+      import(
+        /* webpackChunkName: "event" */ "../views/event-dinlemek/event-dinlemek.vue"
       ),
   },
 ];
