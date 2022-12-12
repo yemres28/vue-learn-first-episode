@@ -1,4 +1,7 @@
-# vue-learn-first-episode
+# vue öğreniyorum
+
+## vue ile öğrendiğim konular
+
 
 ## Project setup
 ```
