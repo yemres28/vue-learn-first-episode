@@ -6,7 +6,10 @@
       <router-link to="/attirbute">Lesson-3</router-link> |
       <router-link to="/html">Lesson-4</router-link> |
       <router-link to="/event">Lesson-5</router-link> |
-      <router-link to="/klavye">Lesson-6</router-link>
+      <router-link to="/klavye">Lesson-6</router-link> |
+      <router-link to="/databinding">Lesson-7</router-link> |
+      <router-link to="/computed">Lesson-8</router-link> |
+      <router-link to="/css">Lesson-9</router-link>
     </nav>
     <router-view />
   </div>

@@ -50,6 +50,30 @@ const routes = [
         /* webpackChunkName: "klavye" */ "../views/klavye-event/klavye-event.vue"
       ),
   },
+  {
+    path: "/databinding",
+    name: "databinding",
+    component: () =>
+      import(
+        /* webpackChunkName: "databinding" */ "../views/two-way-data-binding/two-way-data-binding.vue"
+      ),
+  },
+  {
+    path: "/computed",
+    name: "computed",
+    component: () =>
+      import(
+        /* webpackChunkName: "computed" */ "../views/computed-properties/computed-properties.vue"
+      ),
+  },
+  {
+    path: "/css",
+    name: "css",
+    component: () =>
+      import(
+        /* webpackChunkName: "css" */ "../views/dinamik-stillendirme-css/dinamik-stillendirme-css.vue"
+      ),
+  },
 ];
 
 const router = new VueRouter({
