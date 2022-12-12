@@ -42,6 +42,14 @@ const routes = [
         /* webpackChunkName: "event" */ "../views/event-dinlemek/event-dinlemek.vue"
       ),
   },
+  {
+    path: "/klavye",
+    name: "klavye",
+    component: () =>
+      import(
+        /* webpackChunkName: "klavye" */ "../views/klavye-event/klavye-event.vue"
+      ),
+  },
 ];
 
 const router = new VueRouter({
